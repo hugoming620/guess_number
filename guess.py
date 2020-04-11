@@ -1,7 +1,11 @@
 #import random game
 import random
+a = input('decide the range from :')
+b = input('decide the range to :')
+a = int(a)
+b = int(b)
 
-r = random.randint(1, 100)
+r = random.randint(a, b)
 count = 0
 while True :
 	count +=1 # count = count + 1 
